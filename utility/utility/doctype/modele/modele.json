@@ -1,0 +1,636 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:modele",
+ "creation": "2022-09-14 22:38:44.458615",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "modele",
+  "marque",
+  "cv",
+  "full_modele",
+  "puissence",
+  "genre",
+  "section_break_7",
+  "nbre_place",
+  "nbre_essieux",
+  "nbre_roues",
+  "cycle",
+  "nbre_temps",
+  "nbre_cylindre",
+  "alesage",
+  "course",
+  "cylindre",
+  "taux_de_compression",
+  "carburent",
+  "empl_reservoire",
+  "capacite_reservoire",
+  "section_break_21",
+  "empl_roues_motrices",
+  "empl_roues_directrices",
+  "constr_chassies_1",
+  "constr_chassis_2",
+  "empl_moteur_1",
+  "empl_moteur_2",
+  "nom_moteur",
+  "type_moteur",
+  "puissence_max",
+  "rotation_max",
+  "couple_max",
+  "regime_couple_max",
+  "filtre_aire",
+  "section_break_35",
+  "alimentation_du_moteur_section",
+  "allumage",
+  "tension_circuit",
+  "graissage",
+  "refroidissement_moteur",
+  "nbre_echappement",
+  "niveau_sonore",
+  "section_break_43",
+  "embrayage",
+  "boite_vitesse",
+  "levier_commande",
+  "mode_commande",
+  "rapport_pont",
+  "pneumatique_avant",
+  "pneumatique_arriere",
+  "section_break_51",
+  "vitesse_max",
+  "indicateur_vitesse",
+  "compteur_kilometriques",
+  "suspension_avant",
+  "suspension_arriere",
+  "direction_type",
+  "diametre_bracage",
+  "frein_avant",
+  "frein_arriere",
+  "frein_essieu_1",
+  "frein_essieu_2",
+  "dispositif_antivol",
+  "section_break_64",
+  "carrosserie",
+  "materiaux_carrosserie",
+  "feux_route",
+  "feux_croisement",
+  "feux_position_avant",
+  "feux_rouge_arriere",
+  "feux_change_posi_avant",
+  "feux_change_posi_arriere",
+  "feux_stop",
+  "feux_matricule",
+  "dispositifs_reflechissants",
+  "retrovisuers",
+  "avertisseur_sonore",
+  "section_break_78",
+  "empl_num_plaque",
+  "empl_num_chassis",
+  "num_identification",
+  "identification_moteur",
+  "empattement",
+  "longeur",
+  "largeur",
+  "hauteur",
+  "poids_total",
+  "poids",
+  "charge",
+  "puis_admin",
+  "point_roulant",
+  "section_break_92",
+  "num_pv_dzk",
+  "num_pv_bra",
+  "date_pv_bra",
+  "date_pv_dzk",
+  "signtaire_01_pv_dzk",
+  "signataire_01_pv_bra",
+  "signataire_02_pv_bra",
+  "signataire_02_pv_dzk",
+  "num_identfication_bra"
+ ],
+ "fields": [
+  {
+   "fieldname": "modele",
+   "fieldtype": "Data",
+   "label": "Modele",
+   "unique": 1
+  },
+  {
+   "fieldname": "marque",
+   "fieldtype": "Data",
+   "label": "Marque"
+  },
+  {
+   "fieldname": "cv",
+   "fieldtype": "Data",
+   "label": "CV"
+  },
+  {
+   "fieldname": "full_modele",
+   "fieldtype": "Data",
+   "label": "full_modele"
+  },
+  {
+   "fieldname": "puissence",
+   "fieldtype": "Data",
+   "label": "puissence"
+  },
+  {
+   "fieldname": "genre",
+   "fieldtype": "Data",
+   "label": "genre"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nbre_place",
+   "fieldtype": "Data",
+   "label": "nbre_place"
+  },
+  {
+   "fieldname": "nbre_essieux",
+   "fieldtype": "Data",
+   "label": "nbre_essieux"
+  },
+  {
+   "fieldname": "nbre_roues",
+   "fieldtype": "Data",
+   "label": "nbre_roues"
+  },
+  {
+   "fieldname": "cycle",
+   "fieldtype": "Data",
+   "label": "cycle"
+  },
+  {
+   "fieldname": "nbre_temps",
+   "fieldtype": "Data",
+   "label": "nbre_temps"
+  },
+  {
+   "fieldname": "nbre_cylindre",
+   "fieldtype": "Data",
+   "label": "nbre_cylindre"
+  },
+  {
+   "fieldname": "alesage",
+   "fieldtype": "Data",
+   "label": "alesage"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": "course"
+  },
+  {
+   "fieldname": "cylindre",
+   "fieldtype": "Data",
+   "label": "cylindre"
+  },
+  {
+   "fieldname": "taux_de_compression",
+   "fieldtype": "Data",
+   "label": "taux_de_compression"
+  },
+  {
+   "fieldname": "carburent",
+   "fieldtype": "Data",
+   "label": "carburent"
+  },
+  {
+   "fieldname": "empl_reservoire",
+   "fieldtype": "Data",
+   "label": "empl_reservoire"
+  },
+  {
+   "fieldname": "capacite_reservoire",
+   "fieldtype": "Data",
+   "label": "capacite_reservoire"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "empl_roues_motrices",
+   "fieldtype": "Data",
+   "label": "empl_roues_motrices"
+  },
+  {
+   "fieldname": "empl_roues_directrices",
+   "fieldtype": "Data",
+   "label": "empl_roues_directrices"
+  },
+  {
+   "fieldname": "constr_chassies_1",
+   "fieldtype": "Data",
+   "label": "constr_chassies_1"
+  },
+  {
+   "fieldname": "constr_chassis_2",
+   "fieldtype": "Data",
+   "label": "constr_chassis_2"
+  },
+  {
+   "fieldname": "empl_moteur_1",
+   "fieldtype": "Data",
+   "label": "empl_moteur_1"
+  },
+  {
+   "fieldname": "empl_moteur_2",
+   "fieldtype": "Data",
+   "label": "empl_moteur_2"
+  },
+  {
+   "fieldname": "nom_moteur",
+   "fieldtype": "Data",
+   "label": "nom_moteur"
+  },
+  {
+   "fieldname": "type_moteur",
+   "fieldtype": "Data",
+   "label": "type_moteur"
+  },
+  {
+   "fieldname": "puissence_max",
+   "fieldtype": "Data",
+   "label": "puissence_max"
+  },
+  {
+   "fieldname": "rotation_max",
+   "fieldtype": "Data",
+   "label": "rotation_max"
+  },
+  {
+   "fieldname": "couple_max",
+   "fieldtype": "Data",
+   "label": "couple_max"
+  },
+  {
+   "fieldname": "regime_couple_max",
+   "fieldtype": "Data",
+   "label": "regime_couple_max"
+  },
+  {
+   "fieldname": "filtre_aire",
+   "fieldtype": "Data",
+   "label": "filtre_aire"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "alimentation_du_moteur_section",
+   "fieldtype": "Data",
+   "label": "alimentation_du_moteur_section"
+  },
+  {
+   "fieldname": "allumage",
+   "fieldtype": "Data",
+   "label": "allumage"
+  },
+  {
+   "fieldname": "tension_circuit",
+   "fieldtype": "Data",
+   "label": "tension_circuit"
+  },
+  {
+   "fieldname": "graissage",
+   "fieldtype": "Data",
+   "label": "graissage"
+  },
+  {
+   "fieldname": "refroidissement_moteur",
+   "fieldtype": "Data",
+   "label": "refroidissement_moteur"
+  },
+  {
+   "fieldname": "nbre_echappement",
+   "fieldtype": "Data",
+   "label": "nbre_echappement"
+  },
+  {
+   "fieldname": "niveau_sonore",
+   "fieldtype": "Data",
+   "label": "niveau_sonore"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "embrayage",
+   "fieldtype": "Data",
+   "label": "embrayage"
+  },
+  {
+   "fieldname": "boite_vitesse",
+   "fieldtype": "Data",
+   "label": "boite_vitesse"
+  },
+  {
+   "fieldname": "levier_commande",
+   "fieldtype": "Data",
+   "label": "levier_commande"
+  },
+  {
+   "fieldname": "mode_commande",
+   "fieldtype": "Data",
+   "label": "mode_commande"
+  },
+  {
+   "fieldname": "rapport_pont",
+   "fieldtype": "Data",
+   "label": "rapport_pont"
+  },
+  {
+   "fieldname": "pneumatique_avant",
+   "fieldtype": "Data",
+   "label": "pneumatique_avant"
+  },
+  {
+   "fieldname": "pneumatique_arriere",
+   "fieldtype": "Data",
+   "label": "pneumatique_arriere"
+  },
+  {
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vitesse_max",
+   "fieldtype": "Data",
+   "label": "vitesse_max"
+  },
+  {
+   "fieldname": "indicateur_vitesse",
+   "fieldtype": "Data",
+   "label": "indicateur_vitesse"
+  },
+  {
+   "fieldname": "compteur_kilometriques",
+   "fieldtype": "Data",
+   "label": "compteur_kilometriques"
+  },
+  {
+   "fieldname": "suspension_avant",
+   "fieldtype": "Data",
+   "label": "suspension_avant"
+  },
+  {
+   "fieldname": "direction_type",
+   "fieldtype": "Data",
+   "label": "direction_type"
+  },
+  {
+   "fieldname": "suspension_arriere",
+   "fieldtype": "Data",
+   "label": "suspension_arriere"
+  },
+  {
+   "fieldname": "diametre_bracage",
+   "fieldtype": "Data",
+   "label": "diametre_bracage"
+  },
+  {
+   "fieldname": "frein_avant",
+   "fieldtype": "Data",
+   "label": "frein_avant"
+  },
+  {
+   "fieldname": "frein_arriere",
+   "fieldtype": "Data",
+   "label": "frein_arriere"
+  },
+  {
+   "fieldname": "frein_essieu_1",
+   "fieldtype": "Data",
+   "label": "frein_essieu_1"
+  },
+  {
+   "fieldname": "frein_essieu_2",
+   "fieldtype": "Data",
+   "label": "frein_essieu_2"
+  },
+  {
+   "fieldname": "dispositif_antivol",
+   "fieldtype": "Data",
+   "label": "dispositif_antivol"
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "carrosserie",
+   "fieldtype": "Data",
+   "label": "carrosserie"
+  },
+  {
+   "fieldname": "materiaux_carrosserie",
+   "fieldtype": "Data",
+   "label": "materiaux_carrosserie"
+  },
+  {
+   "fieldname": "feux_route",
+   "fieldtype": "Data",
+   "label": "feux_route"
+  },
+  {
+   "fieldname": "feux_croisement",
+   "fieldtype": "Data",
+   "label": "feux_croisement"
+  },
+  {
+   "fieldname": "feux_position_avant",
+   "fieldtype": "Data",
+   "label": "feux_position_avant"
+  },
+  {
+   "fieldname": "feux_rouge_arriere",
+   "fieldtype": "Data",
+   "label": "feux_rouge_arriere"
+  },
+  {
+   "fieldname": "feux_change_posi_avant",
+   "fieldtype": "Data",
+   "label": "feux_change_posi_avant"
+  },
+  {
+   "fieldname": "feux_change_posi_arriere",
+   "fieldtype": "Data",
+   "label": "feux_change_posi_arriere"
+  },
+  {
+   "fieldname": "feux_stop",
+   "fieldtype": "Data",
+   "label": "feux_stop"
+  },
+  {
+   "fieldname": "feux_matricule",
+   "fieldtype": "Data",
+   "label": "feux_matricule"
+  },
+  {
+   "fieldname": "dispositifs_reflechissants",
+   "fieldtype": "Data",
+   "label": "dispositifs_reflechissants"
+  },
+  {
+   "fieldname": "retrovisuers",
+   "fieldtype": "Data",
+   "label": "retrovisuers"
+  },
+  {
+   "fieldname": "avertisseur_sonore",
+   "fieldtype": "Data",
+   "label": "avertisseur_sonore"
+  },
+  {
+   "fieldname": "section_break_78",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "empl_num_plaque",
+   "fieldtype": "Data",
+   "label": "empl_num_plaque"
+  },
+  {
+   "fieldname": "empl_num_chassis",
+   "fieldtype": "Data",
+   "label": "empl_num_chassis"
+  },
+  {
+   "fieldname": "num_identification",
+   "fieldtype": "Data",
+   "label": "num_identification"
+  },
+  {
+   "fieldname": "identification_moteur",
+   "fieldtype": "Data",
+   "label": "identification_moteur"
+  },
+  {
+   "fieldname": "empattement",
+   "fieldtype": "Data",
+   "label": "empattement"
+  },
+  {
+   "fieldname": "longeur",
+   "fieldtype": "Data",
+   "label": "longeur"
+  },
+  {
+   "fieldname": "largeur",
+   "fieldtype": "Data",
+   "label": "largeur"
+  },
+  {
+   "fieldname": "hauteur",
+   "fieldtype": "Data",
+   "label": "hauteur"
+  },
+  {
+   "fieldname": "poids_total",
+   "fieldtype": "Data",
+   "label": "poids_total"
+  },
+  {
+   "fieldname": "poids",
+   "fieldtype": "Data",
+   "label": "poids"
+  },
+  {
+   "fieldname": "charge",
+   "fieldtype": "Data",
+   "label": "charge"
+  },
+  {
+   "fieldname": "puis_admin",
+   "fieldtype": "Data",
+   "label": "puis_admin"
+  },
+  {
+   "fieldname": "point_roulant",
+   "fieldtype": "Data",
+   "label": "point_roulant"
+  },
+  {
+   "fieldname": "section_break_92",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "num_pv_dzk",
+   "fieldtype": "Data",
+   "label": "num_pv_dzk"
+  },
+  {
+   "fieldname": "num_pv_bra",
+   "fieldtype": "Data",
+   "label": "num_pv_bra"
+  },
+  {
+   "fieldname": "date_pv_bra",
+   "fieldtype": "Data",
+   "label": "date_pv_bra"
+  },
+  {
+   "fieldname": "date_pv_dzk",
+   "fieldtype": "Data",
+   "label": "date_pv_dzk"
+  },
+  {
+   "fieldname": "signtaire_01_pv_dzk",
+   "fieldtype": "Data",
+   "label": "signtaire_01_pv_dzk"
+  },
+  {
+   "fieldname": "signataire_01_pv_bra",
+   "fieldtype": "Data",
+   "label": "signataire_01_pv_bra"
+  },
+  {
+   "fieldname": "signataire_02_pv_bra",
+   "fieldtype": "Data",
+   "label": "signataire_02_pv_bra"
+  },
+  {
+   "fieldname": "signataire_02_pv_dzk",
+   "fieldtype": "Data",
+   "label": "signataire_02_pv_dzk"
+  },
+  {
+   "fieldname": "num_identfication_bra",
+   "fieldtype": "Data",
+   "label": "num_identfication_bra"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-14 23:11:36.201578",
+ "modified_by": "Administrator",
+ "module": "utility",
+ "name": "Modele",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
